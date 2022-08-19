@@ -7,13 +7,13 @@ app = FastAPI(
     docs_url='/api',
     openapi_url='/api/openapi.json',
     redoc_url=None,
-    debug=True
-)
+    debug=True)
 
 
 @app.get('/api/hello')
 async def hello():
     return {'message': 'Hello world!!'}
+
 
 @app.get('/')
 async def hello():
