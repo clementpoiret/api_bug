@@ -1,0 +1,13 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+fastapi = "^0.79.0"
+uvicorn = "^0.17.6"
+python-dotenv = "^0.20.0"
+python-multipart = "^0.0.5"
+
+[requires]
+python_version = "3.9"
